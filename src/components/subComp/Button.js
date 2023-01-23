@@ -1,8 +1,13 @@
 import React from 'react'
 
 const Button = () => {
+
   return (
-    <div>Button</div>
+    <>
+    <div>
+      <button className="button">Buy</button>
+    </div>
+    </>
   )
 }
 
