@@ -21,19 +21,18 @@ const CardA = (props) => {
       <div className='contact'>
       <diva>
         <h3>THIS IS CARD A</h3>
-        {/* <p>my name is {name}</p> */}
         <img src={Image1} alt="" />
-        <Button />
         <Names name ="samsung" occupation ="trader" age ="40" city ="ibadan" />
+        <Button />
       </diva>
 
-      {/* <divb>
+      <divb>
         <h3>THIS IS CARD B</h3>
-        <p>my name is {name}</p>
+        {/* <p>my name is {name}</p> */}
         <img src={Image2} alt="" />
-        <Button />
-        <Names name="iphone" occupation="doctor" age="10" city="abuja" />
-      </divb> */}
+     <Names name ="tecno" occupation ="teacher" age ="30" city ="lagos" />
+     <Button />
+      </divb>
 
       <divc>
         <h3>THIS IS CARD C</h3>
@@ -41,16 +40,16 @@ const CardA = (props) => {
         {/* <p>my name is {name}</p> */}
         </div>
         <img src={Image3} alt="" />
-        <Button />
         <Names name="iphone" occupation="doctor" age="10" city="abuja" />
+        <Button />
       </divc>
 
       <divd>
         <h3>THIS IS CARD D</h3>
         {/* <p>my name is {name}</p> */}
         <img src={Image4} alt="" />
-        <Button />
         <Names name="itel" occupation="engineer" age="20" city="ilorin" />
+        <Button />
       </divd>
       </div>
     </>

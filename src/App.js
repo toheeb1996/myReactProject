@@ -3,8 +3,9 @@ import './App.css';
 import Names from './components/subComp/Names';
 // import Button from './components/subComp/Button';
 import CardA from './components/Cards/CardA';
-import CardB from './components/Cards/CardB';
+// import CardB from './components/Cards/CardB';
 // import CardC from './components/Cards/CardC';
+// import CardD from './components/Cards/CardD';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
      {/* <Names name ="itel" occupation ="engineer" age ="20" city ="ilorin" /> */}
      {/* <Button /> */}
      <CardA />
-     <CardB />
+     {/* <CardB />
+     <CardC />
+     <CardD /> */}
     </div>
   );
 }

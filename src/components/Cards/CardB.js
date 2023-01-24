@@ -8,14 +8,13 @@ const CardB = () => {
   return (
     <>
     <div>
-      CardB
        <divb>
         <h3>THIS IS CARD B</h3>
         {/* <p>my name is {name}</p> */}
         <img src={Image2} alt="" />
         <Button />
-        <Names name="iphone" occupation="doctor" age="10" city="abuja" />
-      </divb>
+     <Names name ="tecno" occupation ="teacher" age ="30" city ="lagos" />
+     </divb>
 
     </div>
     </>
